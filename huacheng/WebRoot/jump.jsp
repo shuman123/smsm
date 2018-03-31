@@ -3,7 +3,7 @@
 <html>
   <head>
     
-    <title>ÏûÏ¢ÍÆËÍ</title>
+    <title>2222æ¶ˆæ¯æ¨é€</title>
  <style type="text/css">
  body{
    background:url("images/jumpbg2.jpg");
@@ -13,14 +13,14 @@
  height:40px;
  font-size:22px;
  text-align:center;
- font-family:ºÚÌå;
+ font-family:é»‘ä½“;
  padding-top:15px;
  }
  .t{
   width:250px;
  height:30px;
  font-size:20px;
- font-family:ºÚÌå;
+ font-family:é»‘ä½“;
 padding-top:20px;
  }
 #clock{
@@ -28,28 +28,28 @@ padding-top:20px;
  height:100px;
  font-size:18px;
  text-align:center;
- font-family:ºÚÌå;
+ font-family:é»‘ä½“;
 padding-top:5px;
  }
  </style>
 <script language="javascript">
 function realSysTime(clock){
-var now=new Date(); //´´½¨Date¶ÔÏó
-var year=now.getFullYear(); //»ñÈ¡Äê·İ
-var month=now.getMonth(); //»ñÈ¡ÔÂ·İ
-var date=now.getDate(); //»ñÈ¡ÈÕÆÚ
-var day=now.getDay(); //»ñÈ¡ĞÇÆÚ
-var hour=now.getHours(); //»ñÈ¡Ğ¡Ê±
-var minu=now.getMinutes(); //»ñÈ¡·ÖÖÓ
-var sec=now.getSeconds(); //»ñÈ¡ÃëÖÓ
+var now=new Date(); //åˆ›å»ºDateå¯¹è±¡
+var year=now.getFullYear(); //è·å–å¹´ä»½
+var month=now.getMonth(); //è·å–æœˆä»½
+var date=now.getDate(); //è·å–æ—¥æœŸ
+var day=now.getDay(); //è·å–æ˜ŸæœŸ
+var hour=now.getHours(); //è·å–å°æ—¶
+var minu=now.getMinutes(); //è·å–åˆ†é’Ÿ
+var sec=now.getSeconds(); //è·å–ç§’é’Ÿ
 month=month+1;
-var arr_week=new Array("ĞÇÆÚÈÕ","ĞÇÆÚÒ»","ĞÇÆÚ¶ş","ĞÇÆÚÈı","ĞÇÆÚËÄ","ĞÇÆÚÎå","ĞÇÆÚÁù");
-var week=arr_week[day]; //»ñÈ¡ÖĞÎÄµÄĞÇÆÚ
-var time=year+"Äê"+month+"ÔÂ"+date+"ÈÕ "+week+" "+hour+":"+minu+":"+sec; //×éºÏÏµÍ³Ê±¼ä
-clock.innerHTML=time; //ÏÔÊ¾ÏµÍ³Ê±¼ä
+var arr_week=new Array("æ˜ŸæœŸæ—¥","æ˜ŸæœŸä¸€","æ˜ŸæœŸäºŒ","æ˜ŸæœŸä¸‰","æ˜ŸæœŸå››","æ˜ŸæœŸäº”","æ˜ŸæœŸå…­");
+var week=arr_week[day]; //è·å–ä¸­æ–‡çš„æ˜ŸæœŸ
+var time=year+"å¹´"+month+"æœˆ"+date+"æ—¥ "+week+" "+hour+":"+minu+":"+sec; //ç»„åˆç³»ç»Ÿæ—¶é—´
+clock.innerHTML=time; //æ˜¾ç¤ºç³»ç»Ÿæ—¶é—´
 }
 window.onload=function(){
-window.setInterval("realSysTime(clock)",0); //ÊµÊ±»ñÈ¡²¢ÏÔÊ¾ÏµÍ³Ê±¼ä
+window.setInterval("realSysTime(clock)",0); //å®æ—¶è·å–å¹¶æ˜¾ç¤ºç³»ç»Ÿæ—¶é—´
 }
 </script> 
 
@@ -58,16 +58,16 @@ window.setInterval("realSysTime(clock)",0); //ÊµÊ±»ñÈ¡²¢ÏÔÊ¾ÏµÍ³Ê±¼ä
   <body>
   <div>
   <c:if test="${empty usertable}">
-     <div class="mtitle"> »¶Ó­½øÈëÊ×Ò³£¡£¡£¡</div>
+     <div class="mtitle"> æ¬¢è¿è¿›å…¥é¦–é¡µï¼ï¼ï¼</div>
   </c:if>
   <c:if test="${not (empty usertable) }">
-   <div class="mtitle">»¶Ó­ÄúµÄµÇÂ¼:<br>
+   <div class="mtitle">æ¬¢è¿æ‚¨çš„ç™»å½•:<br>
    ${usertable.userName} </div>
   </c:if>
  
   </div>  
   <div class="t">
-  µ±Ç°Ê±¼ä£º
+  å½“å‰æ—¶é—´ï¼š
   </div>
   
 <div id="clock">
