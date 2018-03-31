@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>com.cn.controller.registerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>com.cn.controller.loginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>com.cn.controller.ProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showServlet</servlet-name>
+    <servlet-class>com.cn.controller.showServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchproductServlet</servlet-name>
+    <servlet-class>com.cn.controller.SearchproductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductInfoServlet</servlet-name>
+    <servlet-class>com.cn.controller.ProductInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CollectProductServlet</servlet-name>
+    <servlet-class>com.cn.controller.CollectProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>weatherServlet</servlet-name>
+    <servlet-class>com.cn.controller.weatherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyagricultureServlet</servlet-name>
+    <servlet-class>com.cn.controller.MyagricultureServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CollectshowService</servlet-name>
+    <servlet-class>com.cn.dao.CollectshowService</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>usershowServlet</servlet-name>
+    <servlet-class>com.cn.controller.usershowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>logincollectServlet1</servlet-name>
+    <servlet-class>com.cn.controller.logincollectServlet1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>proCommandServlet</servlet-name>
+    <servlet-class>com.cn.controller.proCommandServlet</servlet-class>
+  </servlet>
+ 
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uploadheadimageServlet</servlet-name>
+    <servlet-class>com.cn.controller.uploadheadimageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyagricultureServlet1</servlet-name>
+    <servlet-class>com.cn.controller.MyagricultureServlet1</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>backloginServlet</servlet-name>
+    <servlet-class>com.cn.controller.backloginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>showAdvertiseInfoServlet</servlet-name>
+    <servlet-class>com.cn.controller.showAdvertiseInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AgriinfoByTypeServelet</servlet-name>
+    <servlet-class>com.cn.controller.AgriinfoByTypeServelet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AgriinfoServlet</servlet-name>
+    <servlet-class>com.cn.controller.AgriinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DetailServlet</servlet-name>
+    <servlet-class>com.cn.controller.DetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CollectAgriinfoServlet</servlet-name>
+    <servlet-class>com.cn.controller.CollectAgriinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>agricommandServlet</servlet-name>
+    <servlet-class>com.cn.controller.agricommandServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FeedbackServlet</servlet-name>
+    <servlet-class>com.cn.controller.FeedbackServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jumpServlet</servlet-name>
+    <servlet-class>com.cn.controller.jumpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CancelAgriCollectServlet</servlet-name>
+    <servlet-class>com.cn.controller.CancelAgriCollectServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CancelProductcollectServlet</servlet-name>
+    <servlet-class>com.cn.controller.CancelProductcollectServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/registerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/loginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/ProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showServlet</servlet-name>
+    <url-pattern>/showServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchproductServlet</servlet-name>
+    <url-pattern>/SearchproductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ProductInfoServlet</servlet-name>
+    <url-pattern>/ProductInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CollectProductServlet</servlet-name>
+    <url-pattern>/CollectProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>weatherServlet</servlet-name>
+    <url-pattern>/weatherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyagricultureServlet</servlet-name>
+    <url-pattern>/MyagricultureServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CollectshowService</servlet-name>
+    <url-pattern>/CollectshowService</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>usershowServlet</servlet-name>
+    <url-pattern>/usershowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>logincollectServlet1</servlet-name>
+    <url-pattern>/logincollectServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>proCommandServlet</servlet-name>
+    <url-pattern>/proCommandServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>uploadheadimageServlet</servlet-name>
+    <url-pattern>/uploadheadimageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyagricultureServlet1</servlet-name>
+    <url-pattern>/MyagricultureServlet1</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet-mapping>
+    <servlet-name>backloginServlet</servlet-name>
+    <url-pattern>/backloginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>showAdvertiseInfoServlet</servlet-name>
+    <url-pattern>/showAdvertiseInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgriinfoByTypeServelet</servlet-name>
+    <url-pattern>/AgriinfoByTypeServelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AgriinfoServlet</servlet-name>
+    <url-pattern>/AgriinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DetailServlet</servlet-name>
+    <url-pattern>/DetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CollectAgriinfoServlet</servlet-name>
+    <url-pattern>/CollectAgriinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>agricommandServlet</servlet-name>
+    <url-pattern>/agricommandServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FeedbackServlet</servlet-name>
+    <url-pattern>/FeedbackServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jumpServlet</servlet-name>
+    <url-pattern>/jumpServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CancelAgriCollectServlet</servlet-name>
+    <url-pattern>/CancelAgriCollectServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CancelProductcollectServlet</servlet-name>
+    <url-pattern>/CancelProductcollectServlet</url-pattern>
+  </servlet-mapping>
+ 
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
