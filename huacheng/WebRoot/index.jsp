@@ -4,7 +4,7 @@
 <jsp:forward page="showServlet"></jsp:forward>
 </c:if>
 <html lang="en">
-<title>华成农贸资讯平台首页</title>
+<title>华成农贸资讯平台首页111</title>
   <head>
     <style type="text/css" >
         a{
