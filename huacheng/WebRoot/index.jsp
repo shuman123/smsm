@@ -590,7 +590,7 @@ window.open("jumpServlet","","totalbar=0,location=0,status=0,menubar=0, resizabl
 <a href="showAdvertiseInfoServlet?adId=${advertise1.adId}"><img src="${advertise1.imageUrl}" width="100%" height="97%" class="image1"></a>
 
 </div>
-<div id="con_one_2" style="display:none;">
+<div id="con_one_2" style="display:none;">     
 <a href="showAdvertiseInfoServlet?adId=${advertise2.adId}"><img src="${advertise2.imageUrl}"  width="100%" height="97%" class="image1"></a>
 </div>
 <div id="con_one_3" style="display:none;">
