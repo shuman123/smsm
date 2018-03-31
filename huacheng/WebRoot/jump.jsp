@@ -3,7 +3,7 @@
 <html>
   <head>
     
-    <title>2222消息推送</title>
+    <title>2222消息推送3344</title>
  <style type="text/css">
  body{
    background:url("images/jumpbg2.jpg");
