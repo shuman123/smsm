@@ -33,7 +33,7 @@ public class loginServlet extends HttpServlet {
         	 UserTable usertable=ub.login(userName, pwd);
         	 if(usertable!=null){
             	 request.getSession().setAttribute("usertable",usertable);
-            	 out.print("<script>alert('µÇÂ¼³É¹¦£¡£¡£¡');window.location='index.jsp'</script>");
+            	 out.print("<script>alert('µÇÂ¼³É¹¦ÊæÂü£¡£¡£¡');window.location='index.jsp'</script>");
              }else{
             	 out.print("<script>alert('µÇÂ¼Ê§°Ü£¡');window.location='login.jsp'</script>");	
              } 
